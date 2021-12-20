@@ -1,0 +1,24 @@
+
+.container {
+  background: #16171B url(src/assets/images/main-screen.png) no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+section#home {
+
+}
+
+.title-container {
+  color: #e8e8e8;
+  margin: 150px 70px;
+  width: 50%;
+}
+

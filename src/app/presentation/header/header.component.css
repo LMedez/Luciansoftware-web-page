@@ -1,0 +1,31 @@
+.center {
+  background-color: transparent;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
+}
+
+.header-background {
+  background-color: rgb(23, 23, 27,0.9);
+}
+
+.logo {
+  margin-left: 70px;
+  display: inline-block;
+}
+
+.logo hr {
+  border: 3px solid #889CE7;
+  margin: 0;
+  width: 25%;
+}
+
+.active {
+  color: #FD6262;
+}
+

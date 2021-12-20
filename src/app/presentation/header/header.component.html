@@ -1,0 +1,16 @@
+<div [@hideShow]="show ? 'show': 'hide'" style="height: 95px; width: 100%; position: fixed; z-index: 1"
+     [class.header-background]="showBackground">
+  <mat-toolbar color="primary" class="center">
+    <div class="logo">
+      <hr>
+      <span style="margin: 0" class="mat-headline">Luciansoftware</span>
+    </div>
+
+    <div style="flex: 1 1 auto"></div>
+    <a mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a mat-button routerLink="/applications" routerLinkActive="active">Applications</a>
+    <a mat-button routerLink="/vision" routerLinkActive="active">Vision</a>
+    <a mat-button routerLink="/blog" routerLinkActive="active">Blog</a>
+
+  </mat-toolbar>
+</div>
