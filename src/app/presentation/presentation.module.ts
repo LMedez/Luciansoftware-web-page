@@ -5,6 +5,7 @@ import {HeaderComponent} from './header/header.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {RouterModule, Routes} from "@angular/router";
+import {MatCardModule} from "@angular/material/card";
 
 
 const routes: Routes = [
@@ -24,12 +25,13 @@ const routes: Routes = [
     HomeComponent,
     HeaderComponent
   ],
-  imports: [
-    CommonModule,
-    MatButtonModule,
-    MatToolbarModule,
-    RouterModule.forRoot(routes),
-  ]
+    imports: [
+        CommonModule,
+        MatButtonModule,
+        MatToolbarModule,
+        RouterModule.forRoot(routes),
+        MatCardModule,
+    ]
 })
 export class PresentationModule {
 }

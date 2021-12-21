@@ -15,6 +15,7 @@ $custom-typography: mat.define-typography-config(
   $font-family: 'Poppins',
   $display-3: mat.define-typography-level(76px, 96px, 400),
   $display-1: mat.define-typography-level(34px, 40px, 400, "Open Sans"),
+  $subheading-1: mat.define-typography-level(16px, 25px, 400, "Open Sans"),
   $headline: mat.define-typography-level(24px, 40px, 800, "Montserrat"),
 );
 
